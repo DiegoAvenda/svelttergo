@@ -1,5 +1,6 @@
 <script>
-	import Hero from '$lib/components/Hero.svelte';
+	import {resolve} from "$app/paths"
 </script>
 
-<Hero />
+hi
+<a href={resolve("/better-auth")}>Login</a>

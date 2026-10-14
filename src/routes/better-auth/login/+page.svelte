@@ -1,4 +1,4 @@
-<script >
+<script>
 	import { enhance } from '$app/forms';
 </script>
 
@@ -6,5 +6,7 @@
 <form method="post" action="?/signInSocial" use:enhance>
 	<input type="hidden" name="provider" value="google" />
 	<input type="hidden" name="callbackURL" value="/better-auth" />
-	<button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Sign in with Google</button>
+	<button class="rounded-md bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
+		>Sign in with Google</button
+	>
 </form>

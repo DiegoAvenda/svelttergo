@@ -1,8 +1,6 @@
 import { fail, redirect } from '@sveltejs/kit';
 
-
 import { auth } from '$lib/server/auth';
-
 
 export const load = (event) => {
 	if (event.locals.user) {
@@ -28,5 +26,5 @@ export const actions = {
 			return redirect(302, result.url);
 		}
 		return fail(400, { message: 'Social sign-in failed' });
-	},
+	}
 };

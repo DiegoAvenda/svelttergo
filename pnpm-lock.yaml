@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      daisyui:
-        specifier: ^5.7.39
-        version: 5.7.39
       mongodb:
         specifier: ^7.6.0
         version: 7.6.0
@@ -1448,9 +1445,6 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
-
-  daisyui@5.7.39:
-    resolution: {integrity: sha512-+37UDZKyQPYH5TsZnTqxf38SYDpM4fr+DZGWHQF+Z2LH+hrBn8zuwB3qOJM142nuR1zhs+1/BBgSINfbfPaD1A==}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -3701,8 +3695,6 @@ snapshots:
       which: 2.0.2
 
   cssesc@3.0.0: {}
-
-  daisyui@5.7.39: {}
 
   debug@4.4.3:
     dependencies:
