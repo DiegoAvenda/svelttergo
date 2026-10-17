@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@0.17.0 create --template minimal --no-types --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:vercel" better-auth="demo:github" drizzle="database:sqlite+sqlite:libsql" --install pnpm svelttergo
+pnpm dlx sv@0.17.0 create --template minimal --no-types --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:vercel" better-auth="demo:github" --install pnpm svelttergo
 ```
 
 ## Developing
